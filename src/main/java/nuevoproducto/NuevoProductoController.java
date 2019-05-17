@@ -1,6 +1,8 @@
 package nuevoproducto;
 
 import javafx.beans.binding.Bindings;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -99,6 +101,16 @@ public class NuevoProductoController extends BorderPane implements Initializable
             System.out.println(model.isaModificar());
         });
 
+        precioTF.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observable, String oldValue,
+                                String newValue) {
+                if (!newValue.matches("\\d*")) {
+                    precioTF.setText(newValue.replaceAll("[^\\d]", ""));
+                }
+            }
+        });
+
         imagenProducto.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
@@ -134,6 +146,10 @@ public class NuevoProductoController extends BorderPane implements Initializable
 
     public NuevoProductoModel getModel() {
         return model;
+    }
+
+    public ImageView getImagenProducto() {
+        return imagenProducto;
     }
 
     public String getTipoProducto() {

@@ -129,4 +129,9 @@ public class NuevoProductoModel {
         string.bind(Bindings.concat(precioProducto, "€"));
         return string;
     }
+
+    @Override
+    public String toString() {
+        return getNombreProducto();
+    }
 }
