@@ -70,6 +70,10 @@ public class NuevoProductoController extends BorderPane implements Initializable
     public void initialize(URL location, ResourceBundle resources) {
         model = new NuevoProductoModel();
 
+        descripcionProducto.setWrapText(true);
+
+        imagenProducto.setImage(new Image(getClass().getResource("/add-image.png").toString()));
+
         // BINDEOS CON EL MODELO
         model.nombreProductoProperty().bindBidirectional(nombreProductoTF.textProperty());
         model.descripcionProductoProperty().bindBidirectional(descripcionProducto.textProperty());

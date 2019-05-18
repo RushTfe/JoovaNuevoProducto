@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JoovaNuevoProducto-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JoovaNuevoProducto-0.0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoController$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nuevoproducto/NuevoProductoModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
               <folding>
                 <element signature="method#setDescripcionProducto#0;class#NuevoProductoModel#0" />
                 <element signature="e#3809#3810#0" expanded="true" />
@@ -100,12 +97,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+            <state relative-caret-position="238">
+              <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4444#4445#0" expanded="true" />
-                <element signature="e#4481#4482#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +166,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,10 +199,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nuevoproducto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JoovaNuevoProducto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JoovaNuevoProducto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JoovaNuevoProducto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JoovaNuevoProducto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +232,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554386303366" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JoovaSignUp" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -366,29 +374,32 @@
       <workItem from="1557817679468" duration="26000" />
       <workItem from="1557927193717" duration="1157000" />
       <workItem from="1558010506219" duration="1286000" />
+      <workItem from="1558191598060" duration="62000" />
+      <workItem from="1558196445833" duration="409000" />
+      <workItem from="1558196878865" duration="22000" />
+      <workItem from="1558196991641" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21545000" />
+    <option name="totallyTimeSpent" value="22073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.13326226" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.23146747" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Favorites" order="6" />
-      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.35369775" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3510467" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -400,10 +411,11 @@
       <window_info anchor="bottom" id="Profiler" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" />
       <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="Statistic" order="17" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.20628998" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20574887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -464,12 +476,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/NuevoProductoView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -478,10 +490,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/add-image.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
           <folding>
             <element signature="method#setDescripcionProducto#0;class#NuevoProductoModel#0" />
             <element signature="e#3809#3810#0" expanded="true" />
@@ -492,12 +507,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nuevoproducto/NuevoProductoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4444#4445#0" expanded="true" />
-            <element signature="e#4481#4482#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -513,7 +526,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
